@@ -1,13 +1,13 @@
 #box{
     display: grid;
-    background-color: aqua;
+    background-color: rgb(28, 76, 121);
     grid-template-columns: auto auto auto;
     padding: 10px;
     gap:20px 10px;
     text-align: center;
 }
 #box >div{
-    background-color:aliceblue;
+    background-color:rgb(222, 201, 226);
     border: 1px solid black;
     padding: 10px;
 }
@@ -17,8 +17,18 @@ img{
 
 }
 #item1{
-    grid-column-start: 1;
-    grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end:3;
+    grid-row-end :3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#item7{
+    grid-row-start: 3;
+    grid-row-end:5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+H1{
+    text-align: center;
+    color: black;
 }
